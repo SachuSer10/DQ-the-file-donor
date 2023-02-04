@@ -1151,7 +1151,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/MichaelAnjoottiTG")
+                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/NAZZY_FF")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1359,7 +1359,7 @@ async def auto_filter(client, msg, spoll=False):
                 )
     else:
         btn.append(
-            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+            [InlineKeyboardButton(text="ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs ᴀᴠᴀɪʟᴀʙʟᴇ :(",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
