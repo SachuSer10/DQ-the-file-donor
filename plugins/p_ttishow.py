@@ -38,10 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('💫Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ💫', url=GRP_LNK),
+                    InlineKeyboardButton('🌐 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌐', url=GRP_LNK),
                     InlineKeyboardButton('⚙️Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚙️', url=CHNL_LNK)
                  ],[
-                    InlineKeyboardButton("⚔️Bᴏᴛ Oᴡɴᴇʀ⚔️", url="MichaelAnjoottiTG")
+                    InlineKeyboardButton("⚔️Bᴏᴛ Oᴡɴᴇʀ⚔️", url="NAZZY_FF")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -64,7 +64,7 @@ async def save_group(bot, message):
                                                                            InlineKeyboardButton('💫Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ💫', url=GRP_LNK),
                                                                            InlineKeyboardButton('⚙️Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚙️', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("⚔️Bᴏᴛ Oᴡɴᴇʀ⚔️", url="t.me/MichaelAnjoottiTG")
+                                                                           InlineKeyboardButton("⚔️Bᴏᴛ Oᴡɴᴇʀ⚔️", url="t.me/NAZZY_FF")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
